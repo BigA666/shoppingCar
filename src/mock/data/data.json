@@ -1,0 +1,46 @@
+
+[
+    {
+        "name": "北京佳美口腔医院（三里屯店）",
+        "bool": false,
+        "sum": 0,
+        "content":[
+            {
+                "name": "牙齿矫正",
+                "price": 1200,
+                "bool": false,
+                "number": 1,
+                "sum": 1200
+            },
+            {
+                "name": "牙齿美白",
+                "price": 5000,
+                "bool": false,
+                "number": 1,
+                "sum": 5000
+            }
+        ]
+    },
+    {
+        "name": "英煌整型医院（三里屯店）",
+        "bool": false,
+        "sum": 0,
+        "content":[
+            {
+                "name": "瘦脸针",
+                "bool": false,
+                "price": 3000,
+                "number": 1,
+                "sum": 3000
+            },
+            {
+                "name": "厚唇",
+                "bool": false,
+                "price": 1000,
+                "number": 1,
+                "sum": 1000
+            }
+        ]
+    }
+]
+    

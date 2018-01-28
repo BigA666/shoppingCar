@@ -1,0 +1,156 @@
+*
+  margin: 0
+  padding: 0
+html,body
+  width: 100%
+  height: 100%
+  font-size: 625%
+#app
+  font-size: .12rem
+  width: 100%
+  height: 100%
+  display: flex
+  flex-direction: column
+header 
+  width: 100% 
+  height: .4rem 
+  box-sizing: border-box 
+  position: relative
+  background: white
+  overflow: hidden
+  border-bottom: 1px solid #ccc
+  .center 
+    text-align: center 
+    line-height: .4rem
+  .back 
+    position: absolute
+    top: 0
+    bottom: 0
+    left: 0.1rem 
+    display: flex 
+    align-items: center 
+    justify-content: center
+    flex-direction: column
+  .next
+    position: absolute
+    top: 0
+    bottom: 0
+    right: 0.1rem 
+    display: flex 
+    align-items: center 
+    justify-content: center
+section
+  width: 100%
+  overflow: scroll
+  overflow-x: hidden
+  background: #ededed
+  flex: 1
+  display: flex
+  flex-direction: column
+  .box 
+    width: 100%
+    margin-bottom: 0.1rem 
+    border-bottom: 1px solid #ccc
+    background: white
+    .name 
+      padding: 0.1rem 
+      box-sizing: boder-box
+      border-bottom: 1px solid #ccc
+      display: flex  
+      align-items: center
+      font-size: 0.14rem
+      .circle 
+        width: 0.2rem 
+        height: 0.2rem 
+        border: 1px solid #ccc 
+        border-radius: 50%
+        display: inline-block
+        margin-right: 0.1rem
+        display: flex 
+        align-items: center 
+        justify-content: center
+    .info
+        border-bottom: 1px solid #e4e4e4
+        padding: .1rem 
+        box-sizing: border-box
+        position: relative
+        p
+          display: flex 
+          align-items: center
+          .square
+            border: 1px solid #ccc 
+            width: 0.15rem 
+            height: 0.15rem 
+            display: inline-block
+            margin-right: .1rem
+            display: flex 
+            align-items: center 
+            justify-content: center
+        .infoMain
+          width: 100% 
+          display: flex 
+          align-items: center
+          padding: 0.2rem 0.4rem 0.2rem 0.2rem
+          box-sizing: border-box 
+          justify-content: space-between
+          .price 
+            color: orange
+          .add 
+            span 
+              display: inline-block 
+              width: 0.2rem 
+              height: 0.2rem
+              border: 1px solid #ccc
+              text-align: center 
+              line-height: 0.2rem
+          .del 
+            position: absolute 
+            top: 0 
+            bottom: 0
+            right: 0
+            width: 0.4rem 
+            padding: 0 0.15rem
+            box-sizing: border-box
+            background: orange
+            color: white
+            display: flex 
+            flex-direction: column 
+            align-items: center 
+            justify-content: center
+            transform: translateX(100%)
+            transition: transform 0.2s linear
+            span
+              color: #fe6539
+              font-size: 0.16rem 
+              margin-top: 0.1rem
+          .swiper
+            transform: translateX(0%)
+            transition: transform 0.2s linear
+    .bg:after
+      content: ''
+      display: inline-block
+      width: 0.05rem 
+      height: 0.1rem
+      border: 2px solid red
+      border-left: none
+      border-top: none
+      transform: rotate(45deg)
+footer
+  width: 100%
+  height: .4rem
+  display: flex
+  border-top: 1px solid #ccc
+  padding: 0 0 0 0.1rem 
+  box-sizing: border-box 
+  display: flex 
+  span 
+    flex: 2
+    line-height: 0.4rem
+  .btn 
+    flex: 1
+    text-align: center 
+    background: orange 
+    color: white
+    height: 100%
+    line-height: 0.4rem
+    
